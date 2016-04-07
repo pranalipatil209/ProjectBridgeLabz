@@ -1,8 +1,12 @@
+
 body {
     margin: 0;
     padding: 0;
     align-content: center;
     font-family: serif;
+    overflow: scroll;
+    z-index: 0;
+    position: relative;
    }
    p{
      color : green;
@@ -64,15 +68,19 @@ body {
      margin:0 auto;
      margin-top: 100px;
    }*/
+   .container{
+     position: relative;
+     z-index: 2;
+   }
 
    .header1 {
     width:100%;
-    height:700px; /* height of the background image? */
+    height:600px; /* height of the background image? */
     background:url(blurSea.png);
     text-align:center;
     position : top center;
     background-attachment: fixed;
-    overflow: visible;
+    overflow: hidden;
 
    }
    .logo{
@@ -81,8 +89,9 @@ body {
      background-image: url(../images/logo@2x.png);
      background-position: center;
      background-repeat: no-repeat;
-     position: absolute;
-     top: 45%;
+     position: relative;
+     /*top: 45%;*/
+     top: 250px;
      margin-top: -50px;
 
    }
@@ -95,7 +104,7 @@ body {
       position: absolute;
       left: 50%;
       margin-left: -250px;
-      top: 380px;
+      top: 280px;
 
    }
    .bridge2 {
@@ -107,7 +116,7 @@ body {
       position: absolute;
       left: 50%;
       margin-left: -760px;
-      top: 380px;
+      top: 280px;
 
    }
    .bridge3 {
@@ -119,21 +128,120 @@ body {
       position: absolute;
       left: 50%;
       margin-left: 260px;
-      top: 380px;
+      top: 280px;
    }
    .home1{
      width: 100%;
-     height: 100vh;
-     top : 50%;
-     background-image: url(../images/blank.jpg); ;
-
-     background-repeat: repeat;
+     height: 600px;
+     background-image: url(../images/blue-bg.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: absolute;
      text-align:center;
      position : top center;
      background-attachment: fixed;
-   }
-   
- #contentBox {
-    margin-top: 10px;
 
-     }
+   }
+   #cont{
+      margin-left: 370px;
+      margin-top: 100px;
+      border-radius: 20px;
+      font-family: futura Bk BT;
+      background-position: center;
+
+      color : gray;
+      padding-top: 90px;
+      width : 600px;
+      height: 400px;
+      background : rgba(0, 0, 0, 0.5);
+
+      filter: alpha(opacity=40);
+      /*background-color: #FFFFFF;
+      background:rgba(0, 0, 0, 0.4);*/
+   }
+
+  .machine{
+    width: 535px;
+    height: 800px;
+    background-image: url(../images/compM.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    position: absolute;
+    left: 60%;
+    margin-left: -840px;
+    top: -200px;
+  }
+
+  .home2{
+    margin-top: 600px;
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/clouds_blur.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    text-align:center;
+    position : top center;
+    background-attachment: fixed;
+
+  }
+  #cont1{
+     margin-left: 370px;
+     margin-top: 130px;
+     border-radius: 20px;
+     font-family: futura Bk BT;
+     background-position: center;
+     color : gray;
+     padding-top: 90px;
+     width : 600px;
+     height: 400px;
+     background : rgba(0, 0, 0, 0.5);
+
+     filter: alpha(opacity=40);
+
+  }
+
+    .bars{
+      width: 535px;
+      height: 800px;
+      background-image: url(../images/s5.png);
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      position: absolute;
+      left: 60%;
+      margin-left: -180px;
+      top: 1020px;
+    }
+
+
+   /*.deedee{
+       width: 300px;
+       height: 225px;
+       background-image: url(../images/Dee-Dee.png);
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+        filter: blur(5px);
+       background-repeat: no-repeat;
+       background-position: right bottom;
+       position: absolute;
+       left: 60%;
+       margin-left: -740px;
+       top: 1150px;
+   }*/
+   #blank{
+     height :500px;
+     width : 100%;
+   }
+#footer{
+  position:fixed;
+  z-index: -1;
+   left:0px;
+   bottom:0px;
+   height:500px;
+   width:100%;
+   background:#000000;
+   color:white;
+   text-align: center;
+}
