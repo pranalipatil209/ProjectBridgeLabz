@@ -3,13 +3,13 @@ body {
     margin: 0;
     padding: 0;
     align-content: center;
-    font-family: serif;
+    font-family: cursive;
     overflow: scroll;
     z-index: 0;
     position: relative;
    }
    p{
-     color : green;
+     color : black;
    }
    .nav{
     /*border:1px solid #ccc;
@@ -39,35 +39,7 @@ body {
     padding:10px;
   }
 
-    /*background:rgba(0, 0, 0, 0.4);*/
 
-/*.navbar-default .navbar-brand {
-  color: #897668;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #897668;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #FFFFFF;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: #FFFFFF;
-}*/
-  /*.nav navbarCollapse
-  {
-    align-items: center;
-  }*/
-
-   /*.center {
-     width: 400px;
-     padding: 25px;
-     border: 3px solid ;
-     margin: 25px;
-     margin:0 auto;
-     margin-top: 100px;
-   }*/
    .container{
      position: relative;
      z-index: 2;
@@ -146,14 +118,14 @@ body {
       margin-left: 370px;
       margin-top: 100px;
       border-radius: 20px;
-      font-family: futura Bk BT;
+      font-family: cursive;
       background-position: center;
 
-      color : gray;
+      color : black;
       padding-top: 90px;
       width : 600px;
       height: 400px;
-      background : rgba(0, 0, 0, 0.5);
+      background : rgba(0, 100, 170, 0.3);
 
       filter: alpha(opacity=40);
       /*background-color: #FFFFFF;
@@ -189,13 +161,13 @@ body {
      margin-left: 370px;
      margin-top: 130px;
      border-radius: 20px;
-     font-family: futura Bk BT;
+     font-family: cursive;;
      background-position: center;
-     color : gray;
+     color : black;
      padding-top: 90px;
      width : 600px;
      height: 400px;
-     background : rgba(0, 0, 0, 0.5);
+     background : rgba(255, 255, 255, 0.3);
 
      filter: alpha(opacity=40);
 
@@ -230,18 +202,228 @@ body {
        margin-left: -740px;
        top: 1150px;
    }*/
+
+/*About Us*/
+   .aboutUs1{
+     width: 100%;
+     height: 600px;
+     background-image: url(../images/about_blur.jpeg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     position: absolute;
+     text-align:center;
+     position : top center;
+     background-attachment: fixed;
+     color: black ;
+     padding-top: 70px;
+   }
+   #d1{
+
+        left: 50%;
+        margin-left:45px;
+
+        margin-top: 35px;
+
+        border-radius: 20px;
+        font-family: cursive;;
+        background-position: center;
+        color : black;
+        padding-bottom: 8px;
+
+        width : 1200px;
+        height: 60px;
+        /*background : rgba(0, 0, 0, 0.3);
+
+        filter: alpha(opacity=40);*/
+      }
+      #d2{
+
+           left: 50%;
+           margin-left:45px;
+
+           margin-top: 20px;
+
+           border-radius: 20px;
+           font-family: cursive;;
+           background-position: center;
+           color : black;
+           padding-bottom: 8px;
+
+           width : 1200px;
+           height: 60px;
+           /*background : rgba(0, 0, 0, 0.3);
+
+           filter: alpha(opacity=40);*/
+         }
+         #mission{
+              display : inline-block;
+              left: 50%;
+              margin-left:10px;
+              margin-top: 10px;
+
+              border-radius: 20px;
+              font-family: cursive;
+              background-position: center;
+              color : black;
+              padding-bottom: 8px;
+              padding-top : 35px;
+              width : 500px;
+              height: 200px;
+              background : rgba(255, 255, 255, 0.4);
+
+              filter: alpha(opacity=40);
+            }
+            #vision{
+                  display : inline-block;
+                  left: 50%;
+                  margin-left:50px;
+
+                  margin-top: 40px;
+
+                 border-radius: 20px;
+                 font-family: cursive;
+                 background-position: center;
+                 color : black;
+                 padding-bottom: 8px;
+                 padding-top : 20px;
+                 width : 500px;
+                 height: 200px;
+                 background : rgba(255, 255, 255, 0.4);
+
+                 filter: alpha(opacity=40);
+               }
+
+               .aboutUs2{
+                 width: 100%;
+                 height: 600px;
+                 margin-top: 600px;
+                 background-image: url(../images/about_blur.jpeg);
+                 background-size: cover;
+                 background-repeat: no-repeat;
+                 position: absolute;
+                 text-align:center;
+                 position : top center;
+                 background-attachment: fixed;
+                 color: black ;
+                 padding-top: 70px;
+               }
+
+               #d3{
+
+                    left: 50%;
+                    margin-left:45px;
+
+                    margin-top: -10px;
+
+                    border-radius: 20px;
+                    font-family: cursive;;
+                    background-position: center;
+                    color : black;
+                    padding-bottom: 8px;
+
+                    width : 1200px;
+                    height: 60px;
+                    /*background : rgba(0, 0, 0, 0.3);
+
+                    filter: alpha(opacity=40);*/
+                  }
+     .carousel-inner > .item > img,
+     .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+      }
+      .aboutUs3{
+        width: 100%;
+        height: 600px;
+        margin-top: 1200px;
+        background-image: url(../images/about_blur.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        text-align:center;
+        position : top center;
+        background-attachment: fixed;
+        color: black ;
+        padding-top: 0px;
+      }
+      #face1,#face2,#face3{
+        font-family: cursive;
+        display : inline-block;
+        background : rgba(255, 255, 255, 0.4);
+        padding : 30px;
+      }
+      #face{
+        width : 300px;
+        height: 230px;
+      }
+      #linkd{
+        width: 50px;
+        height: 50px;
+      }
+
+/*Our Job*/
+    .OurJob{
+        width: 100%;
+        height: 1000px;
+        background-image: url(../images/1-blur.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        text-align:center;
+        position : top center;
+        background-attachment: fixed;
+        color: black ;
+        padding-top: 70px;
+      }
+      .miniW{
+        height : 300px;
+        width : 300px;
+        background-image: url(../images/long.jpg);
+        position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-top: 100px;
+        margin-left: 100px;
+        border-radius: 50%;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    #blank{
      height :500px;
      width : 100%;
    }
-#footer{
-  position:fixed;
-  z-index: -1;
-   left:0px;
-   bottom:0px;
-   height:500px;
-   width:100%;
-   background:#000000;
-   color:white;
-   text-align: center;
-}
+   #blank1{
+    margin-top: 1700px;
+     height :600px;
+     width : 100%;
+   }
+   #footer{
+     position:fixed;
+     z-index: -1;
+     left:0px;
+     bottom:0px;
+     height:500px;
+     width:100%;
+     background:#0C1317;
+     color:white;
+     text-align: center;
+   }
+   #footer > p{
+     color : white;
+   }
