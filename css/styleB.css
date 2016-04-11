@@ -364,8 +364,8 @@ body {
 /*Our Job*/
     .OurJob{
         width: 100%;
-        height: 1000px;
-        background-image: url(../images/1-blur.jpeg);
+        height: 1500px;
+        background-image: url(../images/job-blur.jpeg);
         background-size: cover;
         background-repeat: no-repeat;
         position: absolute;
@@ -373,21 +373,151 @@ body {
         position : top center;
         background-attachment: fixed;
         color: black ;
-        padding-top: 70px;
+        padding-top: 30px;
+        font-family: cursive;
       }
       .miniW{
-        height : 300px;
-        width : 300px;
-        background-image: url(../images/long.jpg);
+        height : 400px;
+        width : 400px;
+        background-image: url(../images/fresh-engi.gif);
+        background-color: rgba(255, 255, 255, 0.3);
+        padding-top: 300px;
         position: top center;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        margin-top: 100px;
-        margin-left: 100px;
+        margin-top: 30px;
+        margin-left: 50px;
+        border-radius: 50%;
+
+      }
+      #fresh{
+        display : block;
+
+        margin-left: 470px;
+        text-align: left;
+        margin-top: -255px;
+      }
+      .techC{
+        height : 400px;
+        width : 400px;
+        background-image: url(../images/tech-Comps.gif);
+        background-color: rgba(255, 255, 255, 0.3);
+        padding-top: 300px;
+        padding-left: 20px;
+        position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-top: 200px;
+        margin-left: 50px;
         border-radius: 50%;
       }
+      #tech-C{
+        display : block;
+        margin-top: -240px;
+        margin-left: 470px;
+        text-align: left;
 
+      }
 
+      .startUp{
+        height : 400px;
+        width : 400px;
+        background-image: url(../images/bulb3.gif);
+        background-size: contain;
+        background-color: rgba(255, 255, 255, 0.3);
+        padding-top: 300px;
+        padding-left: 20px;
+        position: top center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin-top: 200px;
+        margin-left: 50px;
+        border-radius: 50%;
+      }
+      #start{
+        display : block;
+        margin-top: -240px;
+        margin-left: 470px;
+        text-align: left;
+
+      }
+
+      .forM{
+        width: 100%;
+        height: 700px;
+        background-image: url(../images/career-blur.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        text-align:center;
+        position : top center;
+        background-attachment: fixed;
+        color: black ;
+        padding-top: 30px;
+        font-family: cursive;
+
+      }
+      .content1{
+        margin-top: 10px;
+      }
+      .contentJoin{
+        margin-top: 70px;
+      }
+      .join{
+        width: 500px;
+        padding: 25px;
+        /*border: 1px solid ;*/
+        margin: 25px;
+        margin:0 auto;
+        margin-top: 10px;
+          background-color: rgba(0,0,0, 0.3);
+      }
+      #send{
+        width : 80px;
+        height : 60px;
+      }
+      #browse{
+        width : 450px;
+      }
+
+      .address{
+        width: 100%;
+        height: 700px;
+        background-image: url(../images/address.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        text-align:center;
+        position : top center;
+        background-attachment: fixed;
+        color: black ;
+        padding-top: 30px;
+        font-family: cursive;
+      }
+      .tokenC{
+        background-image: url(../images/contactUs.gif);
+        height :433px;
+        width :245px;
+        margin-left: 0px;
+        margin-top: -500px;
+        position: relative;
+
+      }
+      .GoogleMap{
+        margin-left: -400px;
+        margin-top: -210px;
+
+      }
+      #addr1{
+        text-align: left;
+        display: block;
+        /*background-color: rgba(255,255,255, 0.3);*/
+        border-radius: 10px;
+        margin-left: 700px;
+        margin-top: 150px;
+        width : 500px;
+        font-family: cursive;
+      }
 
 
 
@@ -410,6 +540,16 @@ body {
    }
    #blank1{
     margin-top: 1700px;
+     height :600px;
+     width : 100%;
+   }
+   #blank2{
+    margin-top: 1400px;
+     height :600px;
+     width : 100%;
+   }
+   #blank3{
+    margin-top: 600px;
      height :600px;
      width : 100%;
    }
