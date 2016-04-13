@@ -8,7 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-    <title>Our Job</title>
+    <title>Join Us</title>
     <style type="text/css">
     .navbar-default {
       background-color: #000000;
@@ -123,7 +123,7 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span></a>
               <ul class="dropdown-menu">
-                <li><a href = "file:///home/bridgeit/Documents/pranali/BridgeLabz/LogIn.html"><span class="glyphicon glyphicon-log-in &nbsp&nbsp"></span> Sign In</a></li>
+                <li><a href = "file:///home/bridgeit/Documents/pranali/BridgeLabz/Login.html"><span class="glyphicon glyphicon-log-in &nbsp&nbsp"></span> Sign In</a></li>
                 <li><a href = "file:///home/bridgeit/Documents/pranali/BridgeLabz/Register.html"><span class="glyphicon glyphicon-plus-sign &nbsp&nbsp"></span> Register</a></li>
               </ul>
             </li>
@@ -135,19 +135,20 @@
 </nav>
 //career
     <div class = "container-fluid">
-      <div class = "forM">
+      <div class = "forM" >
       <div class ="row">
         <p class="contentJoin"><h3> <b>  Career  </b></h3></p>
         <p><h4>Want to start your career with Us?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><a href="#" style="color:#65941D">JOIN US!!</a></b></h4></p>
       </div>
+
       <div class ="row">
-        <div class = "col-6" id = "joinForm">
+        <div class = "Anim col-6" id = "formAnim">
           <form class="join">
 
 
 
                   <div class ="form-group" id = "name">
-                    <input type="text" class ="form-control" placeholder="Enter your Name"required autofocus>
+                    <input type="text" class ="form-control" placeholder="Enter your Name" autofocus>
                   </div>
                   <div class ="form-group">
                     <p>
@@ -162,22 +163,41 @@
                   </div>
                   <div class ="form-group" id = "msg">
                     <label class = "pull-left">message:</label><br>
-                    <textarea class="form-control" placeholder="Enter your Name"required>
+                    <textarea class="form-control" placeholder="Messege"required>
                     </textarea>
 
                   </div>
                   <div class = "form-group" id = "submit">
-                    <input type="image" src = "/home/bridgeit/Documents/pranali/BridgeLabz/images/send.png" alt="submit"
-                     id="send">
+                    <button type="button"  onclick="ani()" class = "flush">
+                    <img src = "/home/bridgeit/Documents/pranali/BridgeLabz/images/send.png" id="send1">
+                  </button>
+
                   </div>
 
           </form>
         </div>
       </div>
+
+
+    <div class = "thank" id = "thank">
+      <div class = "inr" id ="inr">
+      <!-- <p><h2><b>Thank You!!</b></h2><br>
+        We will contact you shortly....</p> -->
+
     </div>
   </div>
+  </div>
 
+    <script>
+    function ani(){
+      document.getElementById('formAnim').className ='AnimClick';
+      document.getElementById('thank').className='thankClick';
+      inr.innerHTML="<br><br><br><h2>THANK YOU!!</h2><br><h4>We will Contact you shortly....</h4>";
 
+      // document.getElementById('thankU').innerHTML='<h2>THANK YOU!!</h2><br><h4>We will Contact you soon....</h4>';
+
+    }
+    </script>
 
 
 

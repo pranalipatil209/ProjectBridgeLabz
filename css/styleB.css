@@ -351,6 +351,19 @@ body {
         display : inline-block;
         background : rgba(255, 255, 255, 0.4);
         padding : 30px;
+        width: 360px;
+        height: 410px;
+
+
+      }
+
+      #linkd{
+        -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */
+        transition: width 1s, height 1s, transform 1s;
+      }
+      #linkd:hover{
+        -webkit-transform: rotate(360deg); /* Safari */
+          transform: rotate(360deg);
       }
       #face{
         width : 300px;
@@ -457,6 +470,163 @@ body {
         font-family: cursive;
 
       }
+
+      .AnimClick{
+
+        -webkit-animation-name: bounceOutRight;
+        animation-name: bounceOutRight;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        }
+
+//thank you text
+            .thank{
+              /*height : 300px;
+              width : 500px;
+
+
+              margin-top: -300px;
+              margin-left: 400px;
+              font-family: cursive;*/
+
+            }
+
+            .thankClick{
+              height : 300px;
+              width : 500px;
+              color:white;
+              margin-left:-40px;
+              font-family: cursive;
+              text-align: center;
+              background-color: rgba(0,0,0, 0.3);
+              margin-top: -300px;
+              margin-left: 400px;
+
+              -webkit-animation-name: bounceInLeft;
+              animation-name: bounceInLeft;
+              -webkit-animation-duration: 2s;
+              animation-duration: 2s;
+              -webkit-animation-fill-mode: both;
+              animation-fill-mode: both;
+            }
+            .inr{
+              margin-top: 60px;
+            }
+
+//bounce in
+
+      @-webkit-keyframes bounceInLeft {
+          from, 60%, 75%, 90%, to {
+            -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+            animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+          }
+
+          0% {
+            opacity: 0;
+            -webkit-transform: translate3d(-3000px, 0, 0);
+            transform: translate3d(-3000px, 0, 0);
+          }
+
+          60% {
+            opacity: 1;
+            -webkit-transform: translate3d(25px, 0, 0);
+            transform: translate3d(25px, 0, 0);
+          }
+
+          75% {
+            -webkit-transform: translate3d(-10px, 0, 0);
+            transform: translate3d(-10px, 0, 0);
+          }
+
+          90% {
+            -webkit-transform: translate3d(5px, 0, 0);
+            transform: translate3d(5px, 0, 0);
+          }
+
+          to {
+            -webkit-transform: none;
+            transform: none;
+          }
+        }
+
+        @keyframes bounceInLeft {
+          from, 60%, 75%, 90%, to {
+            -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+            animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+          }
+
+          0% {
+            opacity: 0;
+            -webkit-transform: translate3d(-3000px, 0, 0);
+            transform: translate3d(-3000px, 0, 0);
+          }
+
+          60% {
+            opacity: 1;
+            -webkit-transform: translate3d(25px, 0, 0);
+            transform: translate3d(25px, 0, 0);
+          }
+
+          75% {
+            -webkit-transform: translate3d(-10px, 0, 0);
+            transform: translate3d(-10px, 0, 0);
+          }
+
+          90% {
+            -webkit-transform: translate3d(5px, 0, 0);
+            transform: translate3d(5px, 0, 0);
+          }
+
+          to {
+            -webkit-transform: none;
+            transform: none;
+          }
+        }
+//bounce out
+      @-webkit-keyframes bounceOutRight {
+        20% {
+          opacity: 1;
+          -webkit-transform: translate3d(-20px, 0, 0);
+          transform: translate3d(-20px, 0, 0);
+        }
+
+        to {
+          opacity: 0;
+          -webkit-transform: translate3d(2000px, 0, 0);
+          transform: translate3d(2000px, 0, 0);
+          visibility: hidden;
+          opacity: 0;
+          transition: visibility 0s 2s, opacity 2s linear;
+
+        }
+      }
+
+      @keyframes bounceOutRight {
+        20% {
+          opacity: 1;
+          -webkit-transform: translate3d(-20px, 0, 0);
+          transform: translate3d(-20px, 0, 0);
+        }
+
+        to {
+          opacity: 0;
+          -webkit-transform: translate3d(2000px, 0, 0);
+          transform: translate3d(2000px, 0, 0);
+          visibility: hidden;
+          opacity: 0;
+          transition: visibility 0s 2s, opacity 2s linear;
+
+
+        }
+      }
+      .flush{
+        background-color: rgba(255,255,255, 0.0);
+        border-color: rgba(255,255,255, 0.0);
+      }
+
+
       .content1{
         margin-top: 10px;
       }
@@ -472,7 +642,7 @@ body {
         margin-top: 10px;
           background-color: rgba(0,0,0, 0.3);
       }
-      #send{
+      #send,#send1{
         width : 80px;
         height : 60px;
       }
@@ -519,9 +689,60 @@ body {
         font-family: cursive;
       }
 
+      .contact{
+        width: 100%;
+        height: 700px;
+        margin-top: 700px;
+        background-image: url(../images/address.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        text-align:center;
+        align-items: center;
+        position : top center;
+        background-attachment: fixed;
+        color: black ;
+        padding-top: 30px;
+        font-family: cursive;
+      }
+      .contactForm{
+        height : 300px;
+        width: 400px;
+        margin-left: 450px;
+        margin-top: 40px;
+        font-family: cursive;
+      }
+      #send{
+        -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */
+        transition: width 1s, height 1s, transform 1s;
+      }
+      #send:hover{
+        -webkit-transform: rotate(360deg); /* Safari */
+          transform: rotate(360deg);
+      }
 
+//login
+      .test{
+        width: 100%;
+        height: 600px;
+        background-image: url(../images/log-in.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        text-align:center;
+        position : top center;
+        background-attachment: fixed;
+        color: black ;
+        padding-top: 70px;
+      }
+  /*.log{
+    height : 400px;
+    width : 400px;
+    background-color : rgba(0, 0, 0, 0.4);
+    margin-top: 100px;
+    padding: 30px;
 
-
+  }*/
 
 
 
@@ -550,6 +771,16 @@ body {
    }
    #blank3{
     margin-top: 600px;
+     height :600px;
+     width : 100%;
+   }
+   #blank4{
+    margin-top: 1300px;
+     height :600px;
+     width : 100%;
+   }
+   #blank5{
+    margin-top: 700px;
      height :600px;
      width : 100%;
    }
