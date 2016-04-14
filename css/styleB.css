@@ -497,11 +497,11 @@ body {
               height : 300px;
               width : 500px;
               color:white;
-              margin-left:-40px;
+
               font-family: cursive;
               text-align: center;
               background-color: rgba(0,0,0, 0.3);
-              margin-top: -300px;
+              margin-top: -400px;
               margin-left: 400px;
 
               -webkit-animation-name: bounceInLeft;
@@ -513,6 +513,8 @@ body {
             }
             .inr{
               margin-top: 60px;
+              text-align: left;
+              color : black;
             }
 
 //bounce in
@@ -722,18 +724,10 @@ body {
       }
 
 //login
-      .test{
-        width: 100%;
+      #logg{
+        width: 300px;
         height: 600px;
-        background-image: url(../images/log-in.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: absolute;
-        text-align:center;
-        position : top center;
-        background-attachment: fixed;
-        color: black ;
-        padding-top: 70px;
+
       }
   /*.log{
     height : 400px;
